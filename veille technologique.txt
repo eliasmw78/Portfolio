@@ -1,0 +1,13 @@
+Blockchain 4.0 : La Blockchain 4.0 est la quatrième génération de la technologie blockchain. Elle vise à créer un environnement utilisable pour les entreprises pour créer et exécuter des applications12. Elle représente la convergence de technologies émergentes comme l’Internet des objets (IoT), l’Intelligence Artificielle (IA), et le Big Data1.
+
+
+Web 3.0 : Le Web 3.0, aussi appelé le web sémantique, est une version d’Internet qui est décentralisée et plus libre, indépendante des États comme des géants du numérique34. Il s’appuie sur des protocoles décentralisés, que la blockchain peut fournir3.
+
+
+Metaverse : Le métavers est un espace virtuel collectif et partagé qui allie réalité augmentée et espaces virtuels56. Il est vu comme le successeur d’internet par la majorité des acteurs économiques dans le secteur des technologies6.
+
+
+Technologie à connaissance nulle (zk) : La technologie à connaissance nulle permet de valider des transactions et de les enregistrer sur la blockchain (publique par nature) sans pour autant partager des informations confidentielles789. Cette technologie est utilisée pour protéger l’anonymat des transactions7.
+
+
+Blockchains interconnectées : L’interopérabilité de la blockchain est la capacité de communiquer et d’interagir de manière transparente entre différents réseaux de blockchain, permettant l’échange de données et d’actifs sans nécessiter d’intermédiaires1011. Elle est essentielle pour la croissance et le développement de cette technologie10.
