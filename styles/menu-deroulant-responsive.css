@@ -1,0 +1,149 @@
+body{
+	font-family: Verdana, Calibri, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav li{
+	list-style-type: none;
+}
+nav > ul > li{
+	float: left;
+	position: relative; /*page8*/
+}
+.submenu{
+	display: none;
+}
+nav{
+	width: 100%;
+	background-color: #424558;
+}
+nav > ul::after{ /*page9*/
+	content: "";
+	display: table;
+	clear: both;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #FFF;
+}
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+.submenu li{
+	border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 270px;
+}
+.menu-htmlcss:hover{
+	border-top: 5px solid orange;
+	background-color: orange;
+}
+.menu-js:hover{
+	border-top: 5px solid yellow;
+	background-color: yellow;
+}
+.menu-base:hover{
+	border-top: 5px solid skyblue;
+	background-color: skyblue;
+}
+.menu-E4:hover{
+	border-top: 5px solid grey;
+	background-color: grey;
+}
+.menu-php:hover{
+	border-top: 5px solid #green;
+	background-color: green;
+}
+.menu-stage:hover{
+	border-top: 5px solid #red;
+	background-color: red;
+}
+.menu-mission:hover{
+	border-top: 5px solid #pink;
+	background-color: pink;
+}
+.menu-presentation:hover{
+	border-top: 5px solid #red;
+	background-color: red;
+}
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+.menu-htmlcss .submenu{
+	background-color: orange;
+}
+.menu-js .submenu{
+	background-color: yellow;
+}
+.menu-base .submenu{
+	background-color: skyblue;
+}
+.menu-E4 .submenu{
+	background-color: grey;
+}
+.menu-php .submenu{
+	background-color: green;
+}
+.menu-stage .submenu{
+	background-color: red;
+}
+.menu-mission .submenu{
+	background-color: pink;
+}
+.menu-presentation .submenu{
+	background-color: red;
+}
+.submenu li:hover a{
+	color: #EEE;
+	font-weight: bold;
+}
+.menu-htmlcss .submenu li:hover{
+	background-color: orange;
+}
+.menu-js .submenu li:hover{
+	background-color: yellow;
+}
+.menu-base .submenu li:hover{
+	background-color: skyblue;
+}
+.menu-E4 .submenu li:hover{
+	background-color: grey;
+}
+.menu-php .submenu li:hover{
+	background-color: green;
+}
+.menu-stage .submenu li:hover{
+	background-color: red;
+}
+.menu-mission .submenu li:hover{
+	background-color: pink;
+}
+.menu-presentation .submenu li:hover{
+	background-color: red;
+}
+.menu-mobile{
+	display: none;
+}
+nav input[type=checkbox]{
+	display: none;
+}
+nav input[type=checkbox]:checked ~ ul{
+	display: block;
+}
